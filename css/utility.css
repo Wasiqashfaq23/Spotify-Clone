@@ -1,0 +1,49 @@
+.bg-black {
+  background-color: black;
+  color: white;
+}
+
+.invert {
+  filter: invert(1);
+}
+
+.bg-gray {
+  background-color: #121212;
+}
+
+.rounded {
+  border-radius: 8px;
+}
+
+
+.m1 {
+  margin: 5px;
+}
+
+.p1 {
+  padding: 10px;
+}
+
+
+*::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: rgba(87, 87, 87, 0.6);
+  border-radius: 10px;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(87, 87, 87, 0.9);
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(87, 87, 87, 0.6) transparent;
+}
